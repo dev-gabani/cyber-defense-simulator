@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local database/runtime files
+logs.db
+*.db-journal
+
+# Node/Vite
+frontend/node_modules/
+frontend/.vite/
+
+# Build output can be regenerated with `npm run build`.
+frontend/dist/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
